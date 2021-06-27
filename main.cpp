@@ -1,4 +1,5 @@
 #include <iostream>
+#include "file.hpp"
 
 void foo()
 {
@@ -8,6 +9,11 @@ void foo()
 int main(int argc, char **argv)
 {
 	std::cout<<"............"<<std::endl;
+<<<<<<< ours
 	foo();
+=======
+	bar();
+	
+>>>>>>> theirs
 return 0;
 }
